@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  <!-- jqueryで実装する場合 -->
+        <link rel="stylesheet" href="main.css">
+        <title>リアルタイムフィルター</title>
+    </head>
+
+    <body>
+      <div>
+        <h1>リアルタイムフィルター</h1>
+        <p>入力した文字を含まない要素は非表示となります</p>
+        <input type="text" class="input_text" placeholder="キーワードを入力してください">
+        <div class="exhibition">
+            <div class="filter_img">
+                <div class="contain_img">
+                    <img src="https://highsnobiety.jp/wp-content/uploads/2018/07/off-white-nike-2018-2-960x640.jpg" alt="nike">
+                </div>
+                <p class="keywords">キーワード</p>
+                <div class="keyword_list">
+                    <p>ナイキ</p>
+                    <p>nike</p>
+                    <p>af1</p>
+                </div>
+            </div>
+            <div class="filter_img">
+                <div class="contain_img">
+                    <img src="https://image-cdn.hypb.st/https%3A%2F%2Fjp.hypebeast.com%2Ffiles%2F2019%2F06%2Fadidas-yeezy-boost-350-v2-black-reflective-release-info-1.jpg?w=960&cbr=1&q=90&fit=max" alt="adidas">
+                </div>
+                <p class="keywords">キーワード</p>
+                <div class="keyword_list">
+                    <p>アディダス</p>
+                    <p>adidas</p>
+                    <p>yeezy</p>
+                </div>
+            </div>
+            <div class="filter_img">
+                <div class="contain_img">
+                    <img src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2020%2F04%2Fwtaps-new-balance-992-release-information-00.jpg?w=960&cbr=1&q=90&fit=max" alt="newbalance">
+                </div>
+                <p class="keywords">キーワード</p>
+                <div class="keyword_list">
+                    <p>ニューバランス</p>
+                    <p>newbalance</p>
+                    <p>992</p>
+                </div>
+            </div>
+            <div class="filter_img">
+                <div class="contain_img">
+                    <img src="https://uptodate.tokyo/wp-content/uploads/2019/01/D7ADAD2E-80D7-47D9-AF51-AF37B3BBA815.jpeg" alt="vans">
+                </div>
+                <p class="keywords">キーワード</p>
+                <div class="keyword_list">
+                    <p>ヴァンズ</p>
+                    <p>vans</p>
+                    <p>old</p>
+                </div>
+            </div>
+        </div>
+      <script src="main.js"></script>
+    </body>
+</html>
